@@ -1,0 +1,31 @@
+{
+  "name": "song-tag",
+  "version": "0.0.0",
+  "description": "song-tag ========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DevMountain/song-tag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/song-tag/issues"
+  },
+  "homepage": "https://github.com/DevMountain/song-tag",
+  "dependencies": {
+    "bcrypt": "^0.8.1",
+    "body-parser": "^1.11.0",
+    "express": "^4.9.8",
+    "express-session": "^1.10.3",
+    "mongoose": "^3.8.23",
+    "moviedb": "^0.1.9",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0",
+    "q": "^1.2.0"
+  }
+}

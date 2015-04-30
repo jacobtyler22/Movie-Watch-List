@@ -1,0 +1,14 @@
+<h1>Register</h1>
+<label>Username</label>
+<input type="text" placeholder="username" class="form-control" ng-model="usernameRegisterField">
+
+<label>Email</label>
+<input type="email" placeholder="email" class="form-control" ng-model="emailRegisterField">
+
+<label>Password</label>
+<input type="password" placeholder="password" class="form-control" ng-model="passwordRegisterField">
+<br />
+
+<font color="{{registerStatusColor}}">{{registerStatus}}</font>
+<button type="button" class="btn btn-primary" ng-click="register()">Register</button>
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

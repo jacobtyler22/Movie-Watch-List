@@ -1,0 +1,116 @@
+<input type="text" placeholder="Search Movie Title" ng-model="searchName">
+<button ng-click="getMovies(1)">Search</button>
+<div class="container-fluid" ng-show="movieList[0]">
+  <div class="row row-centered">
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[0].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[0].original_title}}</p>
+      <p><button ng-click="addToList(movieList[0])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[1].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[1].original_title}}</p>
+      <p><button ng-click="addToList(movieList[1])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[2].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[2].original_title}}</p>
+      <p><button ng-click="addToList(movieList[2])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[3].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[3].original_title}}</p>
+      <p><button ng-click="addToList(movieList[3])">Add to Watch List</button></p>
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[4].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[4].original_title}}</p>
+      <p><button ng-click="addToList(movieList[4])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[5].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[5].original_title}}</p>
+      <p><button ng-click="addToList(movieList[5])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[6].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[6].original_title}}</p>
+      <p><button ng-click="addToList(movieList[6])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[7].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[7].original_title}}</p>
+      <p><button ng-click="addToList(movieList[7])">Add to Watch List</button></p>
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[8].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[8].original_title}}</p>
+      <p><button ng-click="addToList(movieList[8])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[9].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[9].original_title}}</p>
+      <p><button ng-click="addToList(movieList[9])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[10].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[10].original_title}}</p>
+      <p><button ng-click="addToList(movieList[10])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[11].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[11].original_title}}</p>
+      <p><button ng-click="addToList(movieList[11])">Add to Watch List</button></p>
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[12].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[12].original_title}}</p>
+      <p><button ng-click="addToList(movieList[12])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[13].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[13].original_title}}</p>
+      <p><button ng-click="addToList(movieList[13])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[14].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[14].original_title}}</p>
+      <p><button ng-click="addToList(movieList[14])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[15].poster_path}}" alt="Poster Not Found" height="250" width="150">
+      <p>{{movieList[15].original_title}}</p>
+      <p><button ng-click="addToList(movieList[15])">Add to Watch List</button></p>
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[16].poster_path}}" height="250" width="150">
+      <p>{{movieList[16].original_title}}</p>
+      <p><button ng-click="addToList(movieList[16])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[17].poster_path}}" height="250" width="150">
+      <p>{{movieList[17].original_title}}</p>
+      <p><button ng-click="addToList(movieList[17])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[18].poster_path}}" height="250" width="150">
+      <p>{{movieList[18].original_title}}</p>
+      <p><button ng-click="addToList(movieList[18])">Add to Watch List</button></p>
+    </div>
+    <div class="col-md-3 col-centered">
+      <img src="http://image.tmdb.org/t/p/w500{{movieList[19].poster_path}}" height="250" width="150">
+      <p>{{movieList[19].original_title}}</p>
+      <p><button ng-click="addToList(movieList[19])">Add to Watch List</button></p>
+    </div>
+  </div>
+</div>
+<button ng-click="nextPage()" ng-show="movieList[0]">Next Page</button>
+<button ng-click="previousPage()" ng-show="movieList[0]">Previous Page</button>

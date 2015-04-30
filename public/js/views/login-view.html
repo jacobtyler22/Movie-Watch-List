@@ -1,0 +1,11 @@
+<h1>Login</h1>
+<label>Email</label>
+<input type="email" placeholder="email" class="form-control" ng-model="emailLoginField">
+
+<label>Password</label>
+<input type="password" placeholder="password" class="form-control" ng-model="passwordLoginField">
+<br />
+
+<font color="{{loginStatusColor}}">{{loginStatus}}</font>
+<button type="button" class="btn btn-primary" ng-click="login()">Login</button>
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
